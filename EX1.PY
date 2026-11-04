@@ -45,18 +45,18 @@ print(f"O resultado da expressao (2 + 3) * 4 e {soma_test2}")
 # a segunda expressao, os parenteses alteram a ordem de precedencia, fazendo a soma ser realizada antes da multiplicacao
 
 # Loja de produtos
-Nome do produto: Macarrao
-Quantidade: 5
-Preço unitário: R$ 3.00
-Produto: Macarrao
-Quantidade: 2
-Preço unitário: R$ 3.00
-Valor total: R$ 15.00
+Nome_do_produto = "Macarrao"
+Quantidade = 5
+Preço_unitario = 3.00
+Produto = "Macarrao"
+Quantidade = 2
+Preço_unitario =  3.00
+Valor_total = 15.00
 
 # Nota Aluno
-Primeira nota: 6
-Segunda nota: 8
-Média:{(6 + 8) / 2 = 7.0}
+Primeira_nota = 6
+Segunda_nota = 8
+Média = (Primeira_nota + Segunda_nota) / 2
 
 
 
