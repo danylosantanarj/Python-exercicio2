@@ -1,15 +1,16 @@
-# Loja de produtos
-Nome_do_produto = "Macarrao"
-Quantidade = 5
-Preço_unitario = 3.00
-Produto = "Macarrao"
-Quantidade = 2
-Preço_unitario =  3.00
-Valor_total = 15.00
+# Entrada
+produto = input("Nome do produto: ")
+quantidade = int(input("Quantidade: "))
+preco_unitario = float(input("Preço unitário: R$ "))
 
-# Nota Aluno
-Primeira_nota = 6
-Segunda_nota = 8
-Média = (Primeira_nota + Segunda_nota) / 2
+# Cálculo
+total = quantidade * preco_unitario
 
-print(f"O produto {Nome_do_produto} possui quantidade {Quantidade} e preço unitario {Preço_unitario}, totalizando o valor de {Valor_total}")
+# Saída
+print() # linha em branco para separar
+print(f"Produto: {produto}")
+print(f"Quantidade: {quantidade}")
+print(f"Preço unitário: R$ {preco_unitario:.2f}")
+print(f"Valor total: R$ {total:.2f}")
+
+print(f"O produto {produto} possui quantidade {quantidade} e preço unitario {preco_unitario}, totalizando o valor de {total}")
